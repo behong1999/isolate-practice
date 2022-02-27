@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:developer';
 import 'dart:io';
 import 'dart:isolate';
 
@@ -91,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
           people.log();
           // log(people as String);
         },
-        child: Text('Press me'),
+        child: Text('Press it'),
       ),
     );
   }
